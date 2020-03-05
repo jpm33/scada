@@ -11,10 +11,14 @@ Microsoft Visual Studio 2017 is needed. Visual Studio Community is OK.
    Report,
    ScadaData,
    ScadaAgent,
-   ScadaComm,
+   ScadaComm,   --> IMPORTANTE instalar el nuget WinControl en el proyecto "ScadaCommShell" 
+                    usando el comando:
+                                        Install-Package WinControl -Version 1.0.1.2
    OpenKPs,
-   ScadaServer,
-   OpenModules,
+   ScadaServer,   --> IMPORTANTE instalar el nuget WinControl en el proyecto "ScadaServerShell" 
+                    usando el comando:
+                                        Install-Package WinControl -Version 1.0.1.2
+   OpenModules,   --> Copiar DLLs de Mysql y PosgreSQL en ModDBExport
    ScadaWeb,
    OpenPlugins,
    ScadaScheme,
