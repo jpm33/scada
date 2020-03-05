@@ -9,7 +9,7 @@ Microsoft Visual Studio 2017 is needed. Visual Studio Community is OK.
 2. Build the solutions using Visual Studio in the following sequence:
    Log,
    Report,
-   ScadaData,
+   ScadaData,   --> Copiar DLLs de Mysql y PosgreSQL en 
    ScadaAgent,
    ScadaComm,   --> IMPORTANTE instalar el nuget WinControl en el proyecto "ScadaCommShell" 
                     usando el comando:
